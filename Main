@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ortsgemeinde [Name]</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+       .header {
+            background-color: #f0f0f0;
+            padding: 20px;
+            text-align: center;
+        }
+       .logo {
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+            border-radius: 50%;
+        }
+       .icons {
+            margin: 10px;
+        }
+       .search-bar {
+            width: 50%;
+            margin: 20px auto;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+        }
+       .main-image {
+            width: 100%;
+            height: 500px;
+            object-fit: cover;
+            margin: 20px auto;
+        }
+       .buttons {
+            text-align: center;
+            margin: 20px;
+        }
+       .button {
+            margin: 10px;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 10px;
+            background-color: #4CAF50;
+            color: #fff;
+            cursor: pointer;
+        }
+       .button:hover {
+            background-color: #3e8e41;
+        }
+       .activities {
+            margin: 20px;
+            text-align: center;
+        }
+       .social-media {
+            margin: 20px;
+            text-align: center;
+        }
+       .footer {
+            background-color: #f0f0f0;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <img src="logo.png" alt="Ortsgemeinde [Name]" class="logo">
+        <div class="icons">
+            <a href="#"><img src="icon1.png" alt="Icon 1"></a>
+            <a href="#"><img src="icon2.png" alt="Icon 2"></a>
+            <a href="#"><img src="icon3.png" alt="Icon 3"></a>
+        </div>
+        <input type="search" placeholder="Wonach suchen Sie?" class="search-bar">
+    </header>
+    <main>
+        <img src="main-image.jpg" alt="Ortsgemeinde [Name]" class="main-image">
+        <div class="buttons">
+            <button class="button">Aktuelles</button>
+            <button class="button">Veranstaltungen</button>
+            <button class="button">Projekte</button>
+            <!-- weitere Buttons hier hinzufügen -->
+        </div>
+        <div class="activities">
+            <h2>Aktivitäten</h2>
+            <ul>
+                <li><a href="#">Sport</a></li>
+                <li><a href="#">Kultur</a></li>
+                <li><a href="#">Soziales</a></li>
+                <!-- weitere Aktivitäten hier hinzufügen -->
+            </ul>
+        </div>
+        <div class="social-media">
+            <a href="#" target="_blank"><img src="instagram.png" alt="Instagram"></a>
+            <a href="#" target="_blank"><img src="facebook.png" alt="Facebook"></a>
+            <!-- weitere Social-Media-Links hier hinzufügen -->
+        </div>
+    </main>
+    <footer class="footer">
+        <p>Ortsgemeinde [Name]<br>
+        Adresse: [Adresse]<br>
+        Telefon: [Telefonnummer]<br>
+        E-Mail: [E-Mail]</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html> 
